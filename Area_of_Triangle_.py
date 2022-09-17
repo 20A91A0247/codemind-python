@@ -1,4 +1,4 @@
-A,B,C=map(int,input().split())
-s=(A+B+C)/2
-a=(s*(s-A)*(s-B)*(s-C))**0.5
-print('{:.2f}'.format(a))
+a,b,c=map(float,input().split())
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print("{:.2f}".format(area))
