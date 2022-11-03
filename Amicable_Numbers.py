@@ -1,14 +1,14 @@
 a=int(input())
 b=int(input())
-s=0
-sum=0
-for i in range(1,a):
+s1=0
+s2=0
+for i in range(1,a+1):
     if a%i==0:
-        s+=i
-for ch in range(1,b):
-     if b%ch==0:
-        sum+=ch
-if s==b and sum==a:
+        s1+=i
+for i in range(1,b+1):
+    if b%i==0:
+        s2+=i
+if s1==s2:
     print("Amicable")
 else:
     print("Not Amicable")
