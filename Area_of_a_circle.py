@@ -1,3 +1,3 @@
 r=int(input())
-a=3.14*r**2
-print(a)
+area=3.14*r**2
+print(area)
