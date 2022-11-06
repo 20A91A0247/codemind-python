@@ -15,4 +15,3 @@ else:
             print("True")
 if cnt==0:
     print("False")
-    
