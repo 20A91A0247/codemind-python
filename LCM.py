@@ -1,14 +1,10 @@
-n,m=map(int,input().split())
-k=[]
-kk=[]
-for i in range(1,n+30):
-    f=n*i
-    k.append(f)
-for i in range(1,m+30):
-    f=m*i
-    kk.append(f)
-v=[]
-for i in k:
-    if i in kk:
-        v.append(i)
-print(min(v))
+a,b=map(int,input().split())
+c=a
+d=b
+while(a!=0 and b!=0):
+    if a>b:
+        a=a%b
+    else:
+        b=b%a
+p=max(a,b)
+print((c*d)//p)
